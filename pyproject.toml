@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "openweather-api"
+version = "0.1.0"
+description = ""
+authors = ["guilherme <guilherme.rezende@redacaonline.com.br>"]
+
+[tool.poetry.dependencies]
+python = "3.9.13"
+fastapi = "^0.89.0"
+uvicorn = "^0.20.0"
+pydantic = "^1.10.4"
+psycopg2-binary = "^2.9.5"
+mysqlclient = "^2.1.1"
+python-dotenv = "^0.21.0"
+pytz = "^2022.7"
+SQLAlchemy = "^1.4.46"
+aiohttp = "^3.8.3"
+celery = "^5.2.7"
+alembic = "^1.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,9 @@
+.git
+__pycache__/
+/setup.cfg
+.venv
+k8s
+tests
+.dockerignore
+db
+.env
